@@ -3,15 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quiet Place</title>
+    <title>Nature Login</title>
     <meta
       name="description"
-      content="Quiet Place landing page with social sign-in and a calming, responsive design."
+      content="Nature themed login landing page with a full background image and soft glass style navigation."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Playfair+Display:wght@600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
@@ -19,88 +19,72 @@
   <body>
     <div class="page-shell">
       <header class="topbar">
-        <div class="brand" aria-label="Quiet Place home">
-          <span class="brand-mark">✦</span>
-          <span class="brand-text">Quiet Place</span>
+        <div class="brand" aria-label="Brand logo">
+          <div class="logo-mark">◌</div>
+          <span>LOGO</span>
         </div>
 
         <nav class="nav" aria-label="Main navigation">
-          <a href="#features">Features</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
+          <a href="#">HOME</a>
+          <a href="#">BLOG</a>
+          <a href="#">FAQ</a>
+          <a href="#">ABOUT US</a>
         </nav>
 
-        <button class="primary-button small" type="button">Start Your Journey <span>→</span></button>
+        <div class="search-wrap" aria-label="Search">
+          <input type="text" placeholder="" aria-label="Search field" />
+          <button type="button" aria-label="Search button">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="11" cy="11" r="5.5"></circle>
+              <path d="M16 16L21 21"></path>
+            </svg>
+          </button>
+        </div>
       </header>
 
       <main class="hero">
-        <h1>Where Calm Meets<br />Creativity.</h1>
+        <div class="orb" aria-hidden="true"></div>
 
-        <p class="lead">
-          In the rush of life, imagine a space that feels like a deep breath — gentle and grounding.
-          Here, you can reflect, create, or simply be, with tools to reconnect with your inner stillness.
-        </p>
+        <div class="content">
+          <h1>
+            LET THE NATURE
+            <span>set you free</span>
+          </h1>
 
-        <div class="features" id="features">
-          <article class="feature-item">
-            <div class="feature-icon">🧘</div>
-            <h3>Mindful Tools</h3>
-            <p>Use journaling and mood trackers to build habits for well-being.</p>
-          </article>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+            tincidunt ut laoreet dolore magna aliquam erat volutpat.
+          </p>
 
-          <article class="feature-item">
-            <div class="feature-icon">🧺</div>
-            <h3>Creative Space</h3>
-            <p>Write, sketch, or dream freely in your own private digital sanctuary.</p>
-          </article>
-
-          <article class="feature-item">
-            <div class="feature-icon">🌱</div>
-            <h3>Gentle Reminders</h3>
-            <p>Custom prompts to slow down, reflect, and find clarity every day.</p>
-          </article>
+          <button class="cta" type="button">MORE INFO</button>
         </div>
 
-        <div class="cta-row" id="about">
-          <button class="primary-button" type="button">Start Your Journey <span>→</span></button>
-          <button class="secondary-button" type="button">Explore Features</button>
-        </div>
-
-        <div class="auth-row" id="contact">
-          <button class="social-btn google" type="button" aria-label="Continue with Google">
-            <span class="social-icon">G</span>
-            <span>Continue with Google</span>
-          </button>
-
-          <button class="social-btn apple" type="button" aria-label="Continue with Apple">
-            <span class="social-icon"></span>
-            <span>Continue with Apple</span>
-          </button>
+        <div class="sea-scene" aria-hidden="true">
+          <div class="bubble bubble-1"></div>
+          <div class="bubble bubble-2"></div>
+          <div class="bubble bubble-3"></div>
+          <div class="bubble bubble-4"></div>
+          <div class="bubble bubble-5"></div>
+          <div class="bubble bubble-6"></div>
+          <div class="fish fish-1"></div>
+          <div class="fish fish-2"></div>
+          <div class="fish fish-3"></div>
+          <div class="fish fish-4"></div>
+          <div class="plant plant-1"></div>
+          <div class="plant plant-2"></div>
+          <div class="plant plant-3"></div>
+          <div class="plant plant-4"></div>
         </div>
       </main>
 
-      <div class="scene" aria-hidden="true">
-        <div class="cloud cloud-left"></div>
-        <div class="cloud cloud-right"></div>
-        <div class="tree tree-a"></div>
-        <div class="tree tree-b"></div>
-        <div class="tree tree-c"></div>
-        <div class="tree tree-d"></div>
-        <div class="tree tree-e"></div>
-        <div class="tree tree-f"></div>
-        <div class="water"></div>
-        <div class="shore"></div>
-        <div class="person">
-          <div class="person-head"></div>
-          <div class="person-body"></div>
-          <div class="rod"></div>
-          <div class="line"></div>
-          <div class="fish"></div>
-        </div>
-      </div>
-    </div>
+      <aside class="socials" aria-label="Social links">
+        <a href="#" aria-label="Instagram">◎</a>
+        <a href="#" aria-label="Facebook">◌</a>
+        <a href="#" aria-label="X">✕</a>
+      </aside>
 
-    <div class="toast" role="status" aria-live="polite">Preparing secure sign-in...</div>
+      <div class="credit">designed by <span>freepik</span></div>
+    </div>
 
     <script src="script.js"></script>
   </body>
